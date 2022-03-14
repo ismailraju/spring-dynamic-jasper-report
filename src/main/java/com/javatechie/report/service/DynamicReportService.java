@@ -288,7 +288,7 @@ public class DynamicReportService {
 
     private void getTitle(JasperDesign jasDes) {
         JRDesignBand titleBand = new JRDesignBand();
-        titleBand.setHeight(30);
+        titleBand.setHeight(40);
 
         JRDesignStaticText titleText = new JRDesignStaticText();
         titleText.setText("Expensive Employees");
